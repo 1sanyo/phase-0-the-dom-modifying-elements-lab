@@ -1,13 +1,7 @@
-// Write your code here!
-function()
-{
-    const element = document.getElementsByID('main');
-    main.removeChild();  
+const main = document.querySelector('main');
+main.remove();
 
-    const newHeader = document.getElementsByTagName('h1');
+const newHeader = document.createElement('h1');
+newHeader.id = "victory";
 
-    newHeader = document.getElementsByID('victory');
-
-    //newHeader = document.getElementById('victory');
-    newHeader.innerHTML = "<h1>David is the Champion!</h1>"; 
-}
+newHeader.innerHTML = "Sanyo is the champion"
